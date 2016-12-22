@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "verify-chrome-extension",
+  "short_name":"vce",
+  "description": "検証用Extension",
+  "version": "0.0.1",
+  "homepage_url": "https://github.com/howdy39/verify-chrome-extension",
+  "background": {
+    "persistent": false,
+    "page": "background/background.html"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "options_ui": {
+    "page": "options_ui/options.html",
+    "open_in_tab": true
+  }
+}

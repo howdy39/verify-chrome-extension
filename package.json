@@ -1,0 +1,23 @@
+{
+  "name": "verify-chrome-extension",
+  "version": "1.0.0",
+  "description": "Chromeエクステンションの機能を検証するためのリポジトリ",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/howdy39/verify-chrome-extension.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/howdy39/verify-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/howdy39/verify-chrome-extension#readme",
+  "devDependencies": {
+    "eslint": "^3.12.2"
+  }
+}
